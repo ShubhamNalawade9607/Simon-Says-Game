@@ -22,7 +22,5 @@ A classic Simon Says memory game built using **HTML**, **CSS**, and **JavaScript
 - JavaScript
 
 ## 🔹 Live Demo
-(You can add GitHub Pages link here later)
+https://simon-says-game-by-shubham.netlify.app/
 
-## 🔹 Author
-**Shubham Nalawade**
