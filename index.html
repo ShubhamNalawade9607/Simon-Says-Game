@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Says</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Simon Says</h1>
+        
+        <div class="score-board">
+            <div class="score-item">
+                <h3>High Score</h3>
+                <p id="high-score">0</p>
+            </div>
+            <div class="score-item">
+                <h3>Score</h3>
+                <p id="current-score">0</p>
+            </div>
+        </div>
+
+        <h2 id="game-status">Press any key to start the game</h2>
+        
+        <div class="box-container">
+            <div class="row">
+                <div class="box one" id="one"></div>
+                <div class="box two" id="two"></div>
+            </div>
+            <div class="row">
+                <div class="box three" id="three"></div>
+                <div class="box four" id="four"></div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
